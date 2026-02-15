@@ -3,7 +3,6 @@ package com.example.demo2.controllers;
 
 import com.example.demo2.models.Book;
 import com.example.demo2.services.BookService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
