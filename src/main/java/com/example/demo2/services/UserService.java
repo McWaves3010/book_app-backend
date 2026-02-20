@@ -27,7 +27,7 @@ public class UserService {
             userRepository.save(user1);
             return Map.of("message" , "User saved successfully");
         }catch(Exception e){
-            return null;
+            return new RuntimeException(e.getMessage());
         }
     }
 }
